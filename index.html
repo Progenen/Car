@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row header__row">
+                <div class="col-lg-1 col-md-2 col-sm-2 col-mob-sm">
+                    <div class="header__logo">
+                        Car<span>.</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 main-menu">
+                    <nav class="main-menu header__menu header-menu">
+                        <ul class='main-menu__list header-menu__list'>
+                            <li class='main-menu__item header-menu__item'><a href='#' class='main-menu__link header-menu__link active'>Главная</a></li>
+                            <li class='main-menu__item header-menu__item'><a href='#' class='main-menu__link header-menu__link'>Выкуп авто</a></li>
+                            <li class='main-menu__item header-menu__item'><a href='#' class='main-menu__link header-menu__link'>Подбор авто</a></li>
+                            <li class='main-menu__item header-menu__item'><a href='#' class='main-menu__link header-menu__link'>О компании</a></li>
+                            <li class='main-menu__item header-menu__item'><a href='#' class='main-menu__link header-menu__link'>Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-4 col-sm-9 col-md-6 col-mob">
+                    <div class="header__contacts header-contacts">
+                        <a href="telto:+79876543210" class="header-contacts__phone">
+                            +7 987 654 32 10
+                        </a>
+                        <button class="header-contacts__btn btn-main">
+                            Заказать звонок
+                        </button>
+                        <div class='menu__icon burger-menu'>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-md-12">
+                    <h1 class="home__title">
+                        Срочный выкуп авто
+                        в Москве за <span>30 минут!</span>
+                    </h1>
+                    <div class="home__descr">
+                        Выкупаем автомобили в любом состоянии до 99% от рынка. Деньги в день обращения.
+                    </div>
+                    <ul class='home__social main-social'>
+                        <li class='main-social__item'><a href='#' class='main-social__link'>WhatsApp</a><span>|</span></li>
+                        <li class='main-social__item'><a href='#' class='main-social__link'>Telegram</a><span>|</span></li>
+                        <li class='main-social__item'><a href='#' class='main-social__link'>Viber</a></li>
+                    </ul>
+                    <form action="" class="home__form home-form">
+                        <input type="text" name="model" placeholder="Марка, модель, год" class="home-form__input main-input">
+                        <input type="text" name="orderNum" placeholder="Количество хозяев" class="home-form__input main-input">
+                        <input type="text" name="mileage" placeholder="Пробег" class="home-form__input main-input">
+                        <input type="text" name="phone" placeholder="Ваш телефон*" class="home-form__input main-input">
+                        <button type="submit" class="home-form__btn btn-main">Отправить заявку на оценку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="trust">
+        <div class="container">
+            <h2 class="title trust__title">
+                12 причин доверять нам
+            </h2>
+            <div class="row trus__row">  
+                    <div class="swiper-slider">
+                        <div class="swiper-wrapper swiper-wrapper1">
+                        </div>
+                    </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="trust__item trust-item">
+                        <div class="trust-item__title">
+                            <span>
+                                Бесплатно
+                            </span>
+                        </div>
+                        <div class="trust-item__descr">
+                            Выезд к клиенту и оценка автомобили
+                        </div>
+                        <div class="bg-num">
+                            1
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="trust__item trust-item">
+                        <div class="trust-item__title">
+                            <span>
+                                Любое состояние
+                            </span>
+                        </div>
+                        <div class="trust-item__descr">
+                            Выкупаем битые или аварийные авто
+                        </div>
+                        <div class="bg-num">
+                            2
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="trust__item trust-item">
+                        <div class="trust-item__title">
+                            <span>
+                                Проблемные авто
+                            </span>
+                        </div>
+                        <div class="trust-item__descr">
+                            Выкуп авто без ПТС и с запретом регистрации
+                        </div>
+                        <div class="bg-num">
+                            3
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="trust__item trust-item">
+                        <div class="trust-item__title">
+                            <span>
+                                Выкуп бу авто
+                            </span>
+                        </div>
+                        <div class="trust-item__descr">
+                            Выкупаем автомобили с пробегом
+                        </div>
+                        <div class="bg-num">
+                            4
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="trust__item trust-item">
+                        <div class="trust-item__title">
+                            <span>
+                                Деньги сразу
+                            </span>
+                        </div>
+                        <div class="trust-item__descr">
+                            Выплачиваем полную стоимость сразу после сделки наличными или на карту
+                        </div>
+                        <div class="bg-num">
+                            5
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="trust__item trust-item">
+                        <div class="trust-item__title">
+                            <span>
+                                Гарантия
+                            </span>
+                        </div>
+                        <div class="trust-item__descr">
+                            Сделка через банк или наличными до 3 млн. руб.
+                        </div>
+                        <div class="bg-num">
+                            6
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="trust__item trust-item">
+                        <div class="trust-item__title">
+                            <span>
+                                Быстрое оформление
+                            </span>
+                        </div>
+                        <div class="trust-item__descr">
+                            Бесплатно подготовим пакет документов, сделка не займет больше 30 минут
+                        </div>
+                        <div class="bg-num">
+                            7
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="trust__item trust-item">
+                        <div class="trust-item__title">
+                            <span>
+                                Прозрачность
+                            </span>
+                        </div>
+                        <div class="trust-item__descr">
+                            Независимая экспертиза вашего автомобиля
+                        </div>
+                        <div class="bg-num">
+                            8
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="trust__item trust-item">
+                        <div class="trust-item__title">
+                            <span>
+                                Любые марки
+                            </span>
+                        </div>
+                        <div class="trust-item__descr">
+                            Иномарки, отечественные, китайские, коммерческий транспорт и т.д. от 2005 года
+                        </div>
+                        <div class="bg-num">
+                            9
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="trust__item trust-item">
+                        <div class="trust-item__title">
+                            <span>
+                                Максимум
+                            </span>
+                        </div>
+                        <div class="trust-item__descr">
+                            Выкуп автомобилей до 99% от рыночной стоимости
+                        </div>
+                        <div class="bg-num">
+                            10
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="trust__item trust-item">
+                        <div class="trust-item__title">
+                            <span>
+                                Официальное оформление
+                            </span>
+                        </div>
+                        <div class="trust-item__descr">
+                            Выезд к клиенту и оценка автомобили
+                        </div>
+                        <div class="bg-num">
+                            11
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="trust__item trust-item">
+                        <div class="trust-item__title">
+                            <span>
+                                Дороже авто-аукционов и trade-in
+                            </span>
+                        </div>
+                        <div class="trust-item__descr">
+                            Платим до 50 000 руб. больше
+                        </div>
+                        <div class="bg-num">
+                            12
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+    <section class="price">
+        <div class="container">
+            <h2 class="title title-alt price__title">
+                Что влияет на конечную стоимость?
+            </h2>
+            <div class="row price__row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="price__item price-item">
+                        <div class="price-item__title">
+                           <span>
+                            Пробег и год выпуска моделимодели
+                           </span>
+                        </div>
+                        <div class="price-item__bg bg-num">
+                            1
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="price__item price-item">
+                        <div class="price-item__title">
+                            Дилерское обслуживание
+                        </div>
+                        <div class="price-item__bg bg-num">
+                            2
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="price__item price-item">
+                        <div class="price-item__title">
+                            Общая целостность, состояние кузова и резины
+                        </div>
+                        <div class="price-item__bg bg-num">
+                            3
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="price__item price-item">
+                        <div class="price-item__title">
+                            Наличие на руках ПТС, СТС
+                        </div>
+                        <div class="price-item__bg bg-num">
+                            4
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="how">
+        <div class="container">
+            <div class="title how__title">
+                Как мы работаем?
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="how__num">
+                        01
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="how__info how-info">
+                        <div class="how-info__title">
+                            Оценка
+                        </div>
+                        <div class="how-info__descr">
+                            Онлайн оценка по телефону, или пришлите нам фото и данные в мессенджер - WhatsApp / Telegram / Viber
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 offset-lg-3 col-md-3">
+                    <div class="how__num how__num-m">
+                        02
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="how__info how-info">
+                        <div class="how-info__title">
+                            Осмотр
+                        </div>
+                        <div class="how-info__descr">
+                            Осмотр автомобиля в любое время в удобном для вас месте, диагностика в автосервисе не требуется, осмотр не займет больше 15 минут
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="how__num">
+                        03
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="how__info how-info">
+                        <div class="how-info__title">
+                            Сделка
+                        </div>
+                        <div class="how-info__descr">
+                            Сделка и подписание договора о продаже ТС в удобном для вас месте
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-lg-3 col-lg-3">
+                    <div class="how__num how__num-m how__num-m-n">
+                        04
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="how__info how-info">
+                        <div class="how-info__title">
+                            Выкуп
+                        </div>
+                        <div class="how-info__descr">
+                            Выкуп автомобиля и выплата денежных средств сразу после сделки
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="last-buys">
+        <div class="container">
+            <h2 class="title last-buys__title">
+                Последние выкупленные авто
+            </h2>
+            <div class="row">
+                <div class="swiper-slider">
+                    <div class="swiper-wrapper swiper-wrapper3">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="last-buys__item last-buys-item">
+                        <div class="last-buys-item__img">
+                            <img src="images/img.png" alt="">
+                        </div>
+                        <div class="last-buys-item__text">
+                            <div class="last-buys-item__title">
+                                Jeep Compass, 2007
+                            </div>
+                            <div class="last-buys-item__stat">
+                                <span>Состояние:</span>
+                                Кредитное авто
+                            </div>
+                            <div class="last-buys-item__stat">
+                                <span>Цена выкупа</span>
+                                380 000 руб.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="last-buys__item last-buys-item">
+                        <div class="last-buys-item__img">
+                            <img src="images/img.png" alt="">
+                        </div>
+                        <div class="last-buys-item__text">
+                            <div class="last-buys-item__title">
+                                Jeep Compass, 2007
+                            </div>
+                            <div class="last-buys-item__stat">
+                                <span>Состояние:</span>
+                                Кредитное авто
+                            </div>
+                            <div class="last-buys-item__stat">
+                                <span>Цена выкупа</span>
+                                380 000 руб.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="last-buys__item last-buys-item">
+                        <div class="last-buys-item__img">
+                            <img src="images/img.png" alt="">
+                        </div>
+                        <div class="last-buys-item__text">
+                            <div class="last-buys-item__title">
+                                Jeep Compass, 2007
+                            </div>
+                            <div class="last-buys-item__stat">
+                                <span>Состояние:</span>
+                                Кредитное авто
+                            </div>
+                            <div class="last-buys-item__stat">
+                                <span>Цена выкупа</span>
+                                380 000 руб.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="what">
+        <div class="container">
+            <h2 class="what__title title title-alt">
+                Что нужно для выкупа?
+            </h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="what__item what-item">
+                        <div class="what-item__title">
+                            Паспорт
+                        </div>
+                        <div class="what-item__descr">
+                            Необходим для составления договора
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="what__item what-item">
+                        <div class="what-item__title">
+                            Ключи
+                        </div>
+                        <div class="what-item__descr">
+                            Плюсом будет полный комплект ключей (обычно 2 шт.)
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="what__item what-item">
+                        <div class="what__item what-item">
+                            <div class="what-item__title">
+                                Документы
+                            </div>
+                            <div class="what-item__descr">
+                                У автомобиля должен быть хотя бы 1 документ
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="what__item what-item">
+                        <div class="what__item what-item">
+                            <div class="what-item__title">
+                                Доверенность
+                            </div>
+                            <div class="what-item__descr">
+                                Необходим для составления договора
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="webuy">
+        <div class="container">
+            <h2 class="webuy__title title">
+                Какие автомобили мы выкупаем?
+            </h2>
+            <div class="webuy__descr descr">
+                Мы выкупаем автомобили, отнятые судебными приставами, с заложенными ПТС в банк или ломбард
+            </div>
+            <div class="row webuy__row">
+                <div class="col-lg-3">
+                    <div class="webuy__item webuy-item">
+                        <div class="webuy-item__title">
+                            Авто <span>с пробегом</span>
+                        </div>
+                        <div class="webuy-item__bg bg-num">
+                            1
+                        </div>
+                        <div class="webuy-item__back">
+                            <img src="images/img-alt.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="webuy__item webuy-item">
+                        <div class="webuy-item__title">
+                             <span>Кредитные</span> Авто
+                        </div>
+                        <div class="webuy-item__bg bg-num">
+                            2 
+                        </div>
+                        <div class="webuy-item__back">
+                            <img src="images/img-alt.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="webuy__item webuy-item">
+                        <div class="webuy-item__title">
+                             <span>Залоговые</span> Авто
+                        </div>
+                        <div class="webuy-item__bg bg-num">
+                            3
+                        </div>
+                        <div class="webuy-item__back">
+                            <img src="images/img-alt.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="webuy__item webuy-item">
+                        <div class="webuy-item__title">
+                            Заложенные в <span>ломбарде</span> 
+                        </div>
+                        <div class="webuy-item__bg bg-num">
+                            4
+                        </div>
+                        <div class="webuy-item__back">
+                            <img src="images/img-alt.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="webuy__item webuy-item">
+                        <div class="webuy-item__title">
+                            Авто <span>без ПТС</span>
+                        </div>
+                        <div class="webuy-item__bg bg-num">
+                            5
+                        </div>
+                        <div class="webuy-item__back">
+                            <img src="images/img-alt.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="webuy__item webuy-item">
+                        <div class="webuy-item__title">
+                            Авто без <span>документов</span>
+                        </div>
+                        <div class="webuy-item__bg bg-num">
+                            6
+                        </div>
+                        <div class="webuy-item__back">
+                            <img src="images/img-alt.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="webuy__item webuy-item">
+                        <div class="webuy-item__title">
+                            Авто <span>с пробегом</span>
+                        </div>
+                        <div class="webuy-item__bg bg-num">
+                            7
+                        </div>
+                        <div class="webuy-item__back">
+                            <img src="images/img-alt.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="webuy__item webuy-item">
+                        <div class="webuy-item__title">
+                            С запретом <span>регистрации</span> 
+                        </div>
+                        <div class="webuy-item__bg bg-num">
+                            8
+                        </div>
+                        <div class="webuy-item__back">
+                            <img src="images/img-alt.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="webuy__item webuy-item">
+                        <div class="webuy-item__title">
+                            Авто <span>после ДТП</span> 
+                        </div>
+                        <div class="webuy-item__bg bg-num">
+                            9
+                        </div>
+                        <div class="webuy-item__back">
+                            <img src="images/img-alt.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="webuy__item webuy-item">
+                        <div class="webuy-item__title">
+                             <span>Разбитые</span> авто 
+                        </div>
+                        <div class="webuy-item__bg bg-num">
+                            10
+                        </div>
+                        <div class="webuy-item__back">
+                            <img src="images/img-alt.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="webuy__item webuy-item">
+                        <div class="webuy-item__title">
+                             <span>Лизинговые</span> авто 
+                        </div>
+                        <div class="webuy-item__bg bg-num">
+                            11
+                        </div>
+                        <div class="webuy-item__back">
+                            <img src="images/img-alt.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="webuy__item webuy-item">
+                        <div class="webuy-item__title">
+                             <span>Неисправные </span>авто
+                        </div>
+                        <div class="webuy-item__bg bg-num">
+                            12
+                        </div>
+                        <div class="webuy-item__back">
+                            <img src="images/img-alt.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slider webuy-slider">
+                    <div class="swiper-wrapper swiper-wrapper2">
+    
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-12">
+                    <button class="webuy__btn home-form__btn btn-main">Продать проблемный авто</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="consult">
+        <div class="container">
+            <h2 class="consult__title title">
+                Бесплатная консультация
+            </h2>
+            <div class="consult__descr descr">
+                Узнайте стоимость вашего авто за 5 минут, выкупим ваш автомобиль дороже авто-аукциона и trade-in до 50 000 руб.
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form action="" class="consult__form consult-form">
+                        <input name="phone" placeholder="Ваш телефон*" type="text" class="consult-form__input main-input">
+                        <input name="name" placeholder="Ваше имя" type="text" class="consult-form__input main-input">
+                        <button class="home-form__btn btn-main consult-form__btn">
+                            Получить бесплатную консультацию
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="questions">
+        <div class="container">
+            <h2 class="webuy__title title">
+                Частые вопросы
+            </h2>
+            <div class="webuy__descr descr">
+                Многолетний опыт наших специалистов позволяет точно, быстро и выгодно продать ваш автомобиль. Вместе мы выбираем оптимальный вариант. Не тратьте время на самостоятельную продажу авто, вас могут обмануть мошенники. Наши клиенты всегда остаются довольны сделкой.
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="questions__item questions-item">
+                        
+                        <div class="questions-item__head spoiler">
+                            <div class="questions-item__title">
+                                Какие могу быть риски?
+                            </div>
+                            <img src="images/arrowDown.svg" alt="">
+                        </div>
+                        <div class="questions-item__descr">
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                        </div>
+                    </div>
+                    <div class="questions__item questions-item">
+                        
+                        <div class="questions-item__head spoiler">
+                            <div class="questions-item__title">
+                                Из чего складывается цена?
+                            </div>
+                            <img src="images/arrowDown.svg" alt="">
+                        </div>
+                        <div class="questions-item__descr">
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                        </div>
+                    </div>
+                    <div class="questions__item questions-item">
+                        
+                        <div class="questions-item__head spoiler">
+                            <div class="questions-item__title">
+                                Могу я продать авто без документов?
+                            </div>
+                            <img src="images/arrowDown.svg" alt="">
+                        </div>
+                        <div class="questions-item__descr">
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                        </div>
+                    </div>
+                    <div class="questions__item questions-item">
+                        
+                        <div class="questions-item__head spoiler">
+                            <div class="questions-item__title">
+                                Можно ли продать автомобиль без ПТС?
+                            </div>
+                            <img src="images/arrowDown.svg" alt="">
+                        </div>
+                        <div class="questions-item__descr">
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                        </div>
+                    </div>
+                    <div class="questions__item questions-item">
+                        
+                        <div class="questions-item__head spoiler">
+                            <div class="questions-item__title">
+                                Если авто с запретом на рег. действия?
+                            </div>
+                            <img src="images/arrowDown.svg" alt="">
+                        </div>
+                        <div class="questions-item__descr">
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                        </div>
+                    </div>
+                    <div class="questions__item questions-item">
+                        
+                        <div class="questions-item__head spoiler">
+                            <div class="questions-item__title">
+                                Если ПТС заложено в банке или ломбарде?
+                            </div>
+                            <img src="images/arrowDown.svg" alt="">
+                        </div>
+                        <div class="questions-item__descr">
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                        </div>
+                    </div>
+                    <div class="questions__item questions-item">
+                        
+                        <div class="questions-item__head spoiler">
+                            <div class="questions-item__title">
+                                Какие авто вы выкупаете?
+                            </div>
+                            <img src="images/arrowDown.svg" alt="">
+                        </div>
+                        <div class="questions-item__descr">
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                            Все компании по скупке автомобилей покупают их по заниженным стоимостям, мы не исключение.
+                            <br>
+                            <br>
+                            Цена складывается из среднерыночной стоимости, которая определяется на крупных порталах по продаже автомобилей, и тому, какие проблемы и ограничения на него наложены.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="contacts__title">
+                        Контактная информация
+                    </div>
+                    <div class="contacts__subtitle">
+                        Свяжитесь с нами, и мы подберем лучший вариант!
+                    </div>
+                    <div class="contacts-info__row">
+                        <div class="contacts__info contacts-info">
+                            <div class="contacts-info__title">
+                                Адрес
+                            </div>
+                            <div class="contacts-info__descr">
+                                <address class="contacts-info__descr">Москва, ул. 37</address>
+                            </div>
+                        </div>
+                        <div class="contacts__info contacts-info">
+                            <div class="contacts-info__title">
+                                E-mail
+                            </div>
+                            <div class="contacts-info__descr">
+                                <a class="contacts-info__descr" href="maito:alimamedgasanov3gmail.com">alimamedgasanov3gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contacts__info contacts-info">
+                            <div class="contacts-info__title">
+                                Телефон
+                            </div>
+                            <div class="contacts-info__descr">
+                                <a class="contacts-info__descr" href="tel:+79292679337">+7 929 267 93 37</a>
+                            </div>
+                        </div>
+                        <div class="contacts__info contacts-info">
+                            <div class="contacts-info__title">
+                                Мессенджеры
+                            </div>
+                            <ul class='contacts__social main-social'>
+                                <li class='main-social__item'><a href='#' class='main-social__link'>WhatsApp</a><span>|</span></li>
+                                <li class='main-social__item'><a href='#' class='main-social__link'>Telegram</a><span>|</span></li>
+                                <li class='main-social__item'><a href='#' class='main-social__link'>Viber</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5098.360851778372!2d57.175070387538476!3d50.28856375733953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x418223d46a00e4ad%3A0xe8dd92993f25e853!2z0JTQsNGA0LjQvdCw!5e0!3m2!1sru!2skz!4v1611769736269!5m2!1sru!2skz" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header__logo footer__logo">
+                        Car<span>.</span>
+                    </div>
+                    <div class="footer__descr">
+                        Срочный выкуп авто
+                        в Москве за 30 минут!
+                    </div>
+                    <nav class="footer__menu footer-menu main-menu">
+                        <ul class='footer-menu__list main-menu__list'>
+                            <li class='main-menu__item footer-menu__item'><a href='#' class='main-menu__link footer-menu__link active'>Главная</a></li>
+                            <li class='main-menu__item footer-menu__item'><a href='#' class='main-menu__link footer-menu__link' >Выкуп авто</a></li>
+                            <li class='main-menu__item footer-menu__item'><a href='#' class='main-menu__link footer-menu__link'>Подбор авто</a></li>
+                            <li class='main-menu__item footer-menu__item'><a href='#' class='main-menu__link footer-menu__link'>О компании</a></li>
+                            <li class='main-menu__item footer-menu__item'><a href='#' class='main-menu__link footer-menu__link'>Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <ul class='footer__social main-social'>
+                        <li class='main-social__item'><a href='#' class='main-social__link'>WhatsApp</a></li>
+                        <li class='main-social__item'><a href='#' class='main-social__link'>Telegram</a></li>
+                        <li class='main-social__item'><a href='#' class='main-social__link'>Viber</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="JS/swiper-bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>
